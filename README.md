@@ -1,37 +1,22 @@
-# dductly AI Audit Intro
+# dductly AI Audit
 
-## AI Receipt & Invoice Capture
+Hi. This is a short product audit of dductly, plus a working prototype of one idea.
 
+I looked at how financial information gets into dductly today. A lot of it is still typed by hand. Someone has a receipt, then copies vendor, date, total, and tax into the product. That is slow, easy to mistype, and more work than it needs to be.
 
-For this audit, I looked at dductly's current workflows and identified manual receipt and invoice entry as an area that could be improved.
-
-This is how the current workflow looks
-
-
+Here is the current workflow:
 
 https://github.com/user-attachments/assets/9efdb004-0935-4345-9fca-8e64587aa01e
 
+## The idea
 
+A simpler path:
 
-### The idea
+**Upload a receipt → AI reads it → you review → save**
 
-Instead of manually entering information from a receipt, a user could:
+AI fills in the first draft. You check it. The original document stays attached.
 
-**Upload a receipt → AI reads it → Review the information → Save**
-
-The AI would extract information such as:
-
-- Vendor
-- Date
-- Total
-- Tax
-- Category
-- Payment method
-- Invoice number
-
-The user can review and edit everything before saving, and the original receipt stays attached to the transaction.
-
-### How it works
+It would pull out things like vendor, date, total, tax, category, payment method, and invoice number. Every field stays editable. Nothing is saved until you confirm.
 
 ```text
 Receipt / Invoice
@@ -40,6 +25,17 @@ Receipt / Invoice
        ↓
 Extracted Information
        ↓
-   User Review
+   You review
        ↓
 Saved Transaction
+```
+
+That is the loop for this audit: spot a problem, try a solution, keep a person in the loop, then see if it is worth building for real.
+
+The longer write-up is in [`audit.md`](audit.md). That is the audit document, with more of the thinking and insights behind this idea.
+
+## Try the prototype
+
+The walkthrough lives in [`prototype/`](prototype/). Open it, pick a sample receipt, and you can go from upload to a saved transaction in about a minute.
+
+Setup and the demo path (no API key needed) are in the [prototype README](prototype/README.md). It does not use dductly production code, credentials, or customer data.

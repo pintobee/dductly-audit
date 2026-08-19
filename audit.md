@@ -83,3 +83,4 @@ Information is extracted
  Make any corrections
         ↓
    Save transaction
+```
