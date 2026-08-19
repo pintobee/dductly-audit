@@ -1,9 +1,9 @@
-# Ductly AI Audit Intro
+# dductly AI Audit Intro
 
 ## AI Receipt & Invoice Capture
 
 
-For this audit, I looked at Ductly's current workflows and identified manual receipt and invoice entry as an area that could be improved.
+For this audit, I looked at dductly's current workflows and identified manual receipt and invoice entry as an area that could be improved.
 
 This is how the current workflow looks
 
