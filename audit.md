@@ -1,10 +1,10 @@
-# Ductly Product Audit
+# dductly Product Audit
 
 ## AI Receipt & Invoice Capture
 
 ### 1. What I looked at
 
-I spent some time going through Ductly from a user's perspective and looking for areas where the experience could be made easier or more seamless.
+I spent some time going through dductly from a user's perspective and looking for areas where the experience could be made easier or more seamless.
 
 One thing that stood out to me was the process of entering information from receipts and invoices.
 
@@ -14,7 +14,7 @@ The current process works, but I think there is an opportunity to take some of t
 
 ## 2. The Problem
 
-When a business has a receipt or invoice, they currently need to look through the document and manually enter the relevant information into Ductly.
+When a business has a receipt or invoice, they currently need to look through the document and manually enter the relevant information into dductly.
 
 That means the user has to:
 
